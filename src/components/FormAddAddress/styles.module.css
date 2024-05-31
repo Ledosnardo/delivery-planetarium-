@@ -1,0 +1,82 @@
+.container{
+    width: 70%;
+    height: 40vh;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 1px black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.buttons{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.buttons button{
+    margin: 10px;
+    border: none;
+    border-radius: 2px;
+    width: 23%;
+    height: 12vh;
+    cursor: pointer;
+    background-color: rgba(0,0,0,.6);
+
+    color: white;
+    font-size: 1.2rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    padding: 10px;
+    background-color: rgba(0,0,0,.5);
+}
+
+.boxInput{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.boxInput label{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.boxInput input{
+    width: 90%;
+    height: 3.8vh;
+    border: none;
+    background-color: rgba(0,0,0,.6);
+    border-radius: 2px;
+    text-align: center;
+    outline: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.button{
+    width: 20%;
+    height: 5vh;
+    border:none;
+    font-size: 1.2rem;
+    background-color: rgba(0,0,0,.6);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.button:hover{
+    border: 1px solid white;
+    box-shadow: 0 0 10px 2px white;
+}

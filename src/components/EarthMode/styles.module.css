@@ -1,0 +1,34 @@
+.content{
+    width: 60%;
+}
+
+.boxInput{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxInput label{
+    color: white
+}
+
+.boxInput input{
+    width: 60%;
+    height: 3.4vh;
+    margin-left: 8px;
+    padding: 2px;
+    border: none;
+    background-color: rgba(0,0,0,.6);
+    border-radius: 2px;
+    outline: none;
+    color: white;
+}
+
+.error{
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-left: 4px;
+    color: red;
+    letter-spacing: 1px;
+}
